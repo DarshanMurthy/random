@@ -1,6 +1,9 @@
 package com.interview.perfection;
 
 public class Permutation {
+    /*
+    String is immutable
+     */
     public static String swap(String str,int i, int  j){
         char temp[] = str.toCharArray();
         char x = temp[i];
