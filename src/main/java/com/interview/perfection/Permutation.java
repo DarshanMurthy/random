@@ -1,11 +1,13 @@
 package com.interview.perfection;
 
 public class Permutation {
-    public static void swap(String str,char i, char j){
-        char temp;
-        temp = str.charAt(i);
-        //str.charAt(i)=str.charAt(j);
-        j=temp;
+    public static String swap(String str,int i, int  j){
+        char temp[] = str.toCharArray();
+        char x = temp[i];
+        temp[i] = temp[j];
+        temp[j]=x;
+        String f = new String(temp);
+        return f;
     }
 
     public static void permutate(String args, int s, int l){
@@ -13,14 +15,14 @@ public class Permutation {
             System.out.println(args);
         }else {
             for(int i=s; i<=l;i++){
-                swap(args,args.charAt(s), args.charAt(i));
+                args = swap(args,s,i);
                 permutate(args,s+1, l);
-                swap(args,args.charAt(s),args.charAt(i));
+                args =swap(args,s,i);
             }
         }
     }
     public static void main(String args[]){
-        String arr="darshan";
+        String arr="abc";
         permutate(arr,0, arr.length()-1);
 
     }
