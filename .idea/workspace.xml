@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbbbb03-c444-45ba-968d-e9223d0eafe4" name="Default Changelist" comment="test this please">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/java_related/StringConfusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/java_related/StringConfusion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,13 +64,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5159" />
+          <entry key="java" value="5255" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5159" />
+          <entry key="JAVA" value="5255" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -89,16 +90,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/StringConfusion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -110,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="195">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -495,13 +496,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/java/intricacy/ComparatorExamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/testing/Nqueens.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/perfection/arraySlicing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/experiments/mergesortedarrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/experiments/setexamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/experiments/LongestSubStiring.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/interview/perfection/MaximumContinuousTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/StringConfusion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java" />
       </list>
     </option>
   </component>
@@ -564,6 +565,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="math" type="b2602c69:ProjectViewProjectNode" />
+              <item name="math" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="java_related" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -613,7 +623,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538355695859" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538356234600" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -638,7 +648,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaximumContinuousTest.continuousSum">
+  <component name="RunManager" selected="Application.arraySlicing (1)">
     <configuration name="LongestSubStiring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.experiments.LongestSubStiring" />
       <module name="math_main" />
@@ -763,11 +773,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.arraySlicing (1)" />
         <item itemvalue="JUnit.MaximumContinuousTest.continuousSum" />
         <item itemvalue="Application.LongestSubStiring" />
         <item itemvalue="Application.setexamples" />
         <item itemvalue="Application.mergesortedarrays" />
-        <item itemvalue="Application.arraySlicing (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -806,7 +816,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22988506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22988506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
@@ -815,7 +825,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.4114671" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917898" visible="true" weight="0.31703204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49917898" visible="true" weight="0.31703204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -950,24 +960,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/StringConfusion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="195">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/StringConfusion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
