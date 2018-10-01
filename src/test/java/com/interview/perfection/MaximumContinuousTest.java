@@ -19,6 +19,9 @@ public class MaximumContinuousTest {
         int array3[] ={-1,1,2,3,4,-8};
         assertEquals( "results",10, test.continuousSum(array3));
 
+        int array4[] ={-2, -3, 4, -1, -2, 1, 5, -3};
+        assertEquals( "results",7, test.continuousSum(array4));
+
 
     }
 }

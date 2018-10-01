@@ -9,7 +9,7 @@ public class MaximumContinuous {
             if(temp > sum){
                 sum=temp;
             }
-            if(array[i]<0){
+            if(temp<0){
                 temp=0;
             }
         }
