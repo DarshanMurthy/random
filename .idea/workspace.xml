@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbbbb03-c444-45ba-968d-e9223d0eafe4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/interview/perfection/MaximumContinuousTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/interview/perfection/MaximumContinuousTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -64,13 +63,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5861" />
+          <entry key="java" value="6316" />
           <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5861" />
+          <entry key="JAVA" value="6316" />
           <entry key="PLAIN_TEXT" value="85" />
         </counts>
       </usages-collector>
@@ -90,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="255">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -120,17 +119,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="68">
               <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/interview/perfection/MaximumContinuousTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="236">
+              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -510,10 +509,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/interview/experiments/LongestSubStiring.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/StringConfusion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/shorthand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/interview/perfection/MaximumContinuousTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java" />
       </list>
     </option>
   </component>
@@ -616,7 +615,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538358287855" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538362190078" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -644,9 +643,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in math_test">
-    <configuration name="MaximumContinuous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.perfection.MaximumContinuous" />
+  <component name="RunManager" selected="Application.Permutation">
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.perfection.Permutation" />
       <module name="math_main" />
       <extension name="coverage">
         <pattern>
@@ -738,19 +737,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaximumContinuous" />
       <item itemvalue="JUnit.All in math_test (1)" />
       <item itemvalue="JUnit.All in math_test (2)" />
       <item itemvalue="JUnit.All in math_test (3)" />
       <item itemvalue="JUnit.All in math_test" />
+      <item itemvalue="Application.Permutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="JUnit.All in math_test" />
         <item itemvalue="JUnit.All in math_test (3)" />
         <item itemvalue="JUnit.All in math_test (2)" />
         <item itemvalue="JUnit.All in math_test (1)" />
-        <item itemvalue="Application.MaximumContinuous" />
       </list>
     </recent_temporary>
   </component>
@@ -817,6 +816,9 @@
     <history-entry file="All_in_math_test - 2018.09.30 at 18h 38m 25s.xml">
       <configuration name="All in math_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_math_test - 2018.09.30 at 18h 44m 50s.xml">
+      <configuration name="All in math_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="39" width="1260" height="685" extended-state="0" />
@@ -827,23 +829,23 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22988506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22988506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49917898" weight="0.3288364" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.31116584" side_tool="true" visible="true" weight="0.42158517" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.31116584" side_tool="true" visible="true" weight="0.22091062" />
       <window_info anchor="bottom" id="Build" weight="0.3288364" />
       <window_info anchor="bottom" id="Messages" weight="0.4114671" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68883413" visible="true" weight="0.42158517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.68883413" visible="true" weight="0.22091062" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.50145775" side_tool="true" visible="true" weight="0.1592775" />
-      <window_info anchor="right" id="Gradle" sideWeight="0.49854228" visible="true" weight="0.1592775" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5021645" side_tool="true" visible="true" weight="0.1592775" />
+      <window_info anchor="right" id="Gradle" sideWeight="0.4978355" visible="true" weight="0.1592775" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -963,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -994,20 +989,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/interview/perfection/MaximumContinuousTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="68">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/interview/perfection/MaximumContinuousTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
