@@ -1,7 +1,9 @@
 package com.interview.java_related;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
+/*
+String is immutable
+ */
 
 public class arraySlicing {
 
@@ -15,6 +17,22 @@ public class arraySlicing {
         int arr[] = {12,3,4,5};
         for(int i :Arrays.copyOfRange(arr,1,3)){
             System.out.print(i);
+        }
+    }
+
+    public static class SwapCharacters {
+
+        public static char[] swap(String str,int  i, int j){
+            char[] temp = str.toCharArray();
+            char inter=temp[i];
+            temp[i] = temp[j];
+            temp[j] = inter;
+            return temp;
+
+        }
+        public static void main(String args []){
+            String str="murthy1234";
+            System.out.println(swap(str, 0,2));
         }
     }
 }
