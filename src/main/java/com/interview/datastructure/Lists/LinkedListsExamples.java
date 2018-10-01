@@ -1,4 +1,4 @@
-package com.interview.datastructure;
+package com.interview.datastructure.Lists;
 
 /*
 Strengths:
