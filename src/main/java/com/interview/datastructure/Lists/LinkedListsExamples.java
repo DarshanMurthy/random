@@ -13,9 +13,34 @@ so linkedlists are ideal :)
  */
 
 
+import java.util.LinkedList;
+import java.util.Stack;
+
 public class LinkedListsExamples {
 
     public  static void main(String args[]){
+//        LinkedList<Integer> list1 = new LinkedList();
+//        list1.add(1);
+//        list1.add(2);
+//        LinkedList<Integer> list2 = new LinkedList<>();
+//        list2.add(1);
+//        list2.add(2);
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
