@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbbbb03-c444-45ba-968d-e9223d0eafe4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/datastructure/LinkedListsExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/LinkedListsExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/interview/experiments/SwapCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/interview/experiments/setexamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/interview/experiments/setexamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/interview/java_related/arraySlicing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/interview/java_related/arraySlicing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/interview/perfection/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/interview/perfection/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/experiments/setexamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/experiments/setexamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -18,9 +24,12 @@
     <SUITE FILE_PATH="coverage/math$fib__1_.ic" NAME="fib (1) Coverage Results" MODIFIED="1537540549787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.interview.testing.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/math$setexamples.ic" NAME="setexamples Coverage Results" MODIFIED="1538407379981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.interview.experiments.*</FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="38" />
+    <option name="myElementSize" value="27" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -54,23 +63,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7480" />
+          <entry key="java" value="8224" />
           <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7480" />
+          <entry key="JAVA" value="8224" />
           <entry key="PLAIN_TEXT" value="85" />
         </counts>
       </usages-collector>
@@ -81,17 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="152">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -108,13 +117,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/LinkedListsExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="142">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -135,20 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="114">
               <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/interview/perfection/MaximumContinuousTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -156,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/experiments/setexamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="510">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,9 +176,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Singleton" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Singleton" />
       </list>
     </option>
   </component>
@@ -503,19 +500,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/interview/testing/Nqueens.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/perfection/arraySlicing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/experiments/mergesortedarrays.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/interview/experiments/setexamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/experiments/LongestSubStiring.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/StringConfusion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/shorthand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/interview/perfection/MaximumContinuousTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/experiments/SwapCharacters.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/datastructure/LinkedListsExamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/LinkedListsExamples.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interview/experiments/setexamples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interview/practice/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java" />
       </list>
     </option>
   </component>
@@ -578,25 +576,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="math" type="b2602c69:ProjectViewProjectNode" />
-              <item name="math" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="math" type="b2602c69:ProjectViewProjectNode" />
-              <item name="math" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="java_related" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -608,27 +587,6 @@
               <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="perfection" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="math" type="b2602c69:ProjectViewProjectNode" />
-              <item name="math" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="math" type="b2602c69:ProjectViewProjectNode" />
-              <item name="math" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="math" type="b2602c69:ProjectViewProjectNode" />
-              <item name="math" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="perfection" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -637,7 +595,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538407057473" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538491101027" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -692,26 +650,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in math_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="math_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+    <configuration name="arraySlicing$SwapCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.java_related.arraySlicing$SwapCharacters" />
+      <module name="math_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.java_related.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in math_test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="math_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+    <configuration name="arraySlicing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.java_related.arraySlicing" />
+      <module name="math_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.java_related.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in math_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="math_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+    <configuration name="setexamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.experiments.setexamples" />
+      <module name="math_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -764,19 +737,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in math_test (2)" />
-      <item itemvalue="JUnit.All in math_test (3)" />
-      <item itemvalue="JUnit.All in math_test" />
       <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.SwapCharacters" />
+      <item itemvalue="Application.setexamples" />
+      <item itemvalue="Application.arraySlicing$SwapCharacters" />
+      <item itemvalue="Application.arraySlicing" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.arraySlicing$SwapCharacters" />
+        <item itemvalue="Application.arraySlicing" />
+        <item itemvalue="Application.setexamples" />
         <item itemvalue="Application.SwapCharacters" />
-        <item itemvalue="JUnit.All in math_test" />
-        <item itemvalue="JUnit.All in math_test (3)" />
-        <item itemvalue="JUnit.All in math_test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -860,19 +833,19 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49917898" weight="0.3288364" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.44334975" side_tool="true" visible="true" weight="0.16694772" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.44334975" side_tool="true" visible="true" weight="0.40472177" />
       <window_info anchor="bottom" id="Build" weight="0.3288364" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.49917898" weight="0.4114671" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5566502" visible="true" weight="0.16694772" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5566502" visible="true" weight="0.40472177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5020243" side_tool="true" visible="true" weight="0.1592775" />
-      <window_info anchor="right" id="Gradle" sideWeight="0.4979757" visible="true" weight="0.1592775" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.50141644" side_tool="true" visible="true" weight="0.1592775" />
+      <window_info anchor="right" id="Gradle" sideWeight="0.49858356" visible="true" weight="0.1592775" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -965,16 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/experiments/setexamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/testing/fib.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-207">
@@ -1009,31 +972,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/experiments/setexamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/shorthand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/LinkedListsExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="142">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/practice/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1044,17 +1010,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/LinkedListsExamples.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/shorthand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/arraySlicing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="153">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/MaximumContinuous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>

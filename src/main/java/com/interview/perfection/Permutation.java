@@ -9,8 +9,8 @@ public class Permutation {
         char x = temp[i];
         temp[i] = temp[j];
         temp[j]=x;
-        String f = new String(temp);
-        return f;
+        //String f = new String(temp);
+        return String.valueOf(temp);
     }
 
     public static void permutate(String args, int s, int l){

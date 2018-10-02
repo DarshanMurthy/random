@@ -22,17 +22,17 @@ public class arraySlicing {
 
     public static class SwapCharacters {
 
-        public static char[] swap(String str,int  i, int j){
+        public static String swap(String str,int  i, int j){
             char[] temp = str.toCharArray();
             char inter=temp[i];
             temp[i] = temp[j];
             temp[j] = inter;
-            return temp;
+            return String.valueOf(temp);
 
         }
         public static void main(String args []){
-            String str="murthy1234";
-            System.out.println(swap(str, 0,2));
+           String swaped_string =swap("testcase",1,2);
+           System.out.println(swaped_string);
         }
     }
 }
