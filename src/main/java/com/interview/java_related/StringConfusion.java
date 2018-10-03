@@ -5,5 +5,9 @@ public class StringConfusion {
         String value= "murthy";
         // Length() is a method :)
         System.out.println(value.length());
+
+        String name = "whomovedmycheese";
+        System.out.println(name.substring(0,1));
+
     }
 }
