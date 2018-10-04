@@ -11,7 +11,7 @@ public class ArrayListExample {
         list.add("cheese");
         int len = list.get(0).length();
         int index=0;
-        
+
 
 
 
