@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbbbb03-c444-45ba-968d-e9223d0eafe4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/ListImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/interview/datastructure/Lists/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/interview/datastructure/Lists/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/interview/revisions/water.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/interview/revisions/water.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/ArrayListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/revisions/water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/revisions/water.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/ListImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/ListImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -71,13 +67,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10363" />
+          <entry key="java" value="10561" />
           <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10363" />
+          <entry key="JAVA" value="10561" />
           <entry key="PLAIN_TEXT" value="85" />
         </counts>
       </usages-collector>
@@ -118,8 +114,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="90">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/ListImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -527,9 +527,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/interview/revisions/sum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/StringConfusion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/maths.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/ArrayListExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/revisions/water.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/ListImplementation.java" />
       </list>
     </option>
@@ -649,7 +649,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538662070583" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538662448055" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -883,7 +883,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2898194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2898194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49917898" weight="0.3288364" />
       <window_info anchor="bottom" id="Terminal" />
@@ -892,7 +892,7 @@
       <window_info anchor="bottom" id="Messages" sideWeight="0.49835795" weight="0.4114671" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5558292" visible="true" weight="0.44688028" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5558292" visible="true" weight="0.44688028" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1135,15 +1135,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/ListImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
