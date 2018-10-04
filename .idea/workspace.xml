@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbbbb03-c444-45ba-968d-e9223d0eafe4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/perfection/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/java_related/IndexofAndSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/revisions/water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/revisions/water.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,23 +57,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="35" />
+          <entry key="java" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11272" />
+          <entry key="java" value="11524" />
           <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11272" />
+          <entry key="JAVA" value="11524" />
           <entry key="PLAIN_TEXT" value="85" />
         </counts>
       </usages-collector>
@@ -82,15 +81,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/StringConfusion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/LinkedListsExamples.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -173,15 +163,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/AddTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="480">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="e#105#106#0" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/IndexofAndSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -537,6 +536,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/interview/datastructure/Lists/ListImplementation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/revisions/water.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/perfection/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/IndexofAndSubstring.java" />
       </list>
     </option>
   </component>
@@ -547,8 +547,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="54" />
+    <option name="x" value="-58" />
+    <option name="y" value="174" />
     <option name="width" value="1260" />
     <option name="height" value="685" />
   </component>
@@ -655,7 +655,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538666045294" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538668062928" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -683,13 +683,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers">
+  <component name="RunManager" selected="Application.IndexofAndSubstring">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.perfection.AddTwoNumbers" />
       <module name="math_main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.interview.perfection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexofAndSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.java_related.IndexofAndSubstring" />
+      <module name="math_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.java_related.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -716,19 +729,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.interview.java_related.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.revisions.sum" />
-      <module name="math_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.revisions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -797,19 +797,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.sum" />
       <item itemvalue="Application.water" />
       <item itemvalue="Application.StringConfusion" />
       <item itemvalue="Application.ListImplementation" />
       <item itemvalue="Application.AddTwoNumbers" />
+      <item itemvalue="Application.IndexofAndSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IndexofAndSubstring" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.ListImplementation" />
         <item itemvalue="Application.StringConfusion" />
         <item itemvalue="Application.water" />
-        <item itemvalue="Application.sum" />
       </list>
     </recent_temporary>
   </component>
@@ -881,7 +881,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="54" width="1260" height="685" extended-state="0" />
+    <frame x="-58" y="174" width="1260" height="685" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -889,16 +889,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2898194" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30377668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49917898" weight="0.3288364" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.44417077" side_tool="true" visible="true" weight="0.26644182" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.4449918" side_tool="true" visible="true" weight="0.26644182" />
       <window_info anchor="bottom" id="Build" weight="0.3288364" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49835795" weight="0.4114671" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49753696" weight="0.4114671" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5558292" visible="true" weight="0.26644182" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.55500823" visible="true" weight="0.26644182" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1159,12 +1159,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/perfection/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="480">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="e#105#106#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/IndexofAndSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
