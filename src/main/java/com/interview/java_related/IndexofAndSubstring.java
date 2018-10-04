@@ -14,5 +14,9 @@ public class IndexofAndSubstring {
 
         String test3="darshan";
         System.out.println(test3.indexOf('a'));
+
+        String strs[] ={"leet","leetcode","leetmode"};
+
+        System.out.println(strs[0].indexOf(strs[1]));
     }
 }
