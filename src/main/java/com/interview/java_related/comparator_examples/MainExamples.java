@@ -44,8 +44,7 @@ public class MainExamples {
         for(int i=0;i< ar.size();i++) {
             System.out.println(ar.get(i).name);
         }
-
-
+        System.out.println("darshan".compareTo("tumkur"));
 
     }
 }
