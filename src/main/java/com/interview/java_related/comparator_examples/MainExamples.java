@@ -39,6 +39,7 @@ public class MainExamples {
         }
 
         Collections.sort(ar,new Sortbyname());
+        Collections.sort(ar,new Sortbyroll());
 
         for(int i=0;i< ar.size();i++) {
             System.out.println(ar.get(i).name);
