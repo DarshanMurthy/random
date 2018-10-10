@@ -5,11 +5,11 @@ import java.util.HashMap;
 
 public class SSWCAW {
     public static void main(String args[]){
-        String s = "barfoothefoobarman";
-        String arr[] ={"foo","bar"};
+        String s = "barfoothemanfoobarjkt";
+        String arr[] ={"bar","foo"};
         int len = arr[0].length();
         for(int j=0;j< len;j++){
-            for(int i=j;i< s.length()-len;i=i+len){
+            for(int i=j;i<= s.length()-len;i=i+len){
                 String sub = s.substring(i,i+len);
                 System.out.println(sub);
             }
