@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbbbb03-c444-45ba-968d-e9223d0eafe4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/java_related/maths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/java_related/maths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/revisions/substringexample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/revisions/substringexample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -69,13 +70,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="14859" />
+          <entry key="java" value="15127" />
           <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14859" />
+          <entry key="JAVA" value="15127" />
           <entry key="PLAIN_TEXT" value="98" />
         </counts>
       </usages-collector>
@@ -155,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/revisions/substringexample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="55">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,8 +168,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/maths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="165">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -552,8 +556,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="71" />
+    <option name="x" value="234" />
+    <option name="y" value="51" />
     <option name="width" value="1280" />
     <option name="height" value="725" />
   </component>
@@ -614,7 +618,8 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="math" type="b2602c69:ProjectViewProjectNode" />
@@ -660,16 +665,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="revisions" type="462c0819:PsiDirectoryNode" />
-              <item name="water.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="math" type="b2602c69:ProjectViewProjectNode" />
-              <item name="math" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="sorting_techniques" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -679,7 +674,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539270216115" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539271287712" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -747,12 +742,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="substringexample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.revisions.substringexample" />
+    <configuration name="maths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.java_related.maths" />
       <module name="math_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.revisions.*" />
+          <option name="PATTERN" value="com.interview.java_related.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -760,8 +755,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="water" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.revisions.water" />
+    <configuration name="substringexample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.revisions.substringexample" />
       <module name="math_main" />
       <extension name="coverage">
         <pattern>
@@ -821,19 +816,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.water" />
       <item itemvalue="Application.MainExamples" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.SSWCAW" />
       <item itemvalue="Application.substringexample" />
+      <item itemvalue="Application.maths" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.substringexample" />
+        <item itemvalue="Application.maths" />
         <item itemvalue="Application.SSWCAW" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.MainExamples" />
-        <item itemvalue="Application.water" />
       </list>
     </recent_temporary>
   </component>
@@ -905,7 +900,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="71" width="1280" height="725" extended-state="0" />
+    <frame x="234" y="51" width="1280" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18820679" />
@@ -917,14 +912,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.55331177" visible="true" weight="0.3586098" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.55331177" visible="true" weight="0.51184833" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49917898" weight="0.39954337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49917898" weight="0.3288364" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4466882" side_tool="true" visible="true" weight="0.3586098" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4466882" side_tool="true" visible="true" weight="0.51184833" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3288364" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49753696" weight="0.4114671" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1120,13 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/maths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/experiments/LongestSubStiring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1158,10 +1146,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/maths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/revisions/substringexample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="55">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
