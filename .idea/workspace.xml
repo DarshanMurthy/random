@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbbbb03-c444-45ba-968d-e9223d0eafe4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/experiments/LongestSubstringWithKMostDistictCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/interview/revisions/substringexample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/interview/revisions/substringexample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/revisions/substringexample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/revisions/substringexample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/experiments/LongestSubstringWithKMostDistictCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/experiments/LongestSubstringWithKMostDistictCharacters.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,13 +69,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="15181" />
+          <entry key="java" value="15348" />
           <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15181" />
+          <entry key="JAVA" value="15348" />
           <entry key="PLAIN_TEXT" value="98" />
         </counts>
       </usages-collector>
@@ -170,8 +167,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/experiments/LongestSubstringWithKMostDistictCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="180">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -682,7 +679,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539354558952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539355814457" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -710,7 +707,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.substringexample">
+  <component name="RunManager" selected="Application.LongestSubstringWithKMostDistictCharacters">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.sorting_techniques.BubbleSort" />
       <module name="math_main" />
@@ -724,12 +721,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.java_related.comparator_examples.MainExamples" />
+    <configuration name="LongestSubstringWithKMostDistictCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.experiments.LongestSubstringWithKMostDistictCharacters" />
       <module name="math_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.java_related.comparator_examples.*" />
+          <option name="PATTERN" value="com.interview.experiments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -824,19 +821,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainExamples" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.SSWCAW" />
       <item itemvalue="Application.substringexample" />
       <item itemvalue="Application.maths" />
+      <item itemvalue="Application.LongestSubstringWithKMostDistictCharacters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithKMostDistictCharacters" />
         <item itemvalue="Application.substringexample" />
         <item itemvalue="Application.maths" />
         <item itemvalue="Application.SSWCAW" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.MainExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -911,7 +908,7 @@
     <frame x="234" y="51" width="1280" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18820679" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18820679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -920,7 +917,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.55331177" visible="true" weight="0.30015796" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.55331177" visible="true" weight="0.30015796" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49917898" weight="0.39954337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1176,8 +1173,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/experiments/LongestSubstringWithKMostDistictCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
