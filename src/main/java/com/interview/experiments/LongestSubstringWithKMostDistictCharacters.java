@@ -22,7 +22,7 @@ public class LongestSubstringWithKMostDistictCharacters {
             for(int j=i+1;j< arr.length();j++){
                 if(arr1[0] !=arr.charAt(j) && count == 2){
                     arr1[1]=arr.charAt(j);
-                    
+
                     count++;
                 }else if( arr1[0] ==arr.charAt(j) || arr1[1] == arr.charAt(j)){
 
