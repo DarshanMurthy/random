@@ -22,11 +22,7 @@ public class sum {
     public static void main(String args[]){
         sum s1 = new sum();
         s1.permute("abc",0, "value".length()-1);
-
-
         //Efficiency: O( N * N! )
-
-
     }
 
 }
