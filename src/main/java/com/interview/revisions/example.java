@@ -5,16 +5,23 @@ import java.util.Map;
 
 public class example {
     public static void main(String arsgs[]){
-       String s = "barfoothefoobarman";
-       String words[] ={"bar","foo"};
+       String name="barfoothefoobarman";
+       String words[] ={"foo","bar"};
        int len = words[0].length();
-       for(int j=0;j< len;j++){
-           for(int i=j; i<=s.length()-len; i=i+len){
-               System.out.print(s.substring(i,i+len));
-               System.out.printf("%d --> %d",j,i);
-               System.out.println();
+       for(int i=0;i<len;i++){
+           for(int j=i;j<=name.length()-len;j=j+len){
+               System.out.println(name.substring(j,j+len));
            }
-           System.out.println();
        }
+       String n1="darshan";
+       String temp="rs";
+
+       for(int k=0;k<n1.length()-temp.length();k++){
+           for(int l=0;l< temp.length();l++){
+               
+           }
+       }
+
+
     }
 }
