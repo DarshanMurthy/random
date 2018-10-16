@@ -6,30 +6,27 @@ import java.util.Map;
 public class example {
     public static int stringProcess(String str) {
         int max =0,start=0;
+        Map<Character,Integer> map = new HashMap<>();
+
         for (int i = 0; i < str.length(); i++) {
-            Map<Character,Integer> map = new HashMap<>();
-            if(map.containsKey(str.charAt(i))){
+            char t = str.charAt(i);
+            if(map.containsKey(t)){
                 int count = map.get(str.charAt(i));
-                count = count +1;
-                map.put(str.charAt(i),count);
+                map.put(t,++count);
             }else{
                 map.put(str.charAt(i),1);
             }
 
-
             if (map.size()>2){
                 max = Math.max(max,i-start);
-                while(map.size()>2){
-                    if(map.get(str.charAt(start))>1){
-                        int count = map.get(str.charAt(start));
-                        count = count -1;
-                        map.put(str.charAt(start),count);
-                    }else{
-                        map.remove(map.get(str.charAt(start)));
-                    }
-                    start++;
+                char s = str.charAt(start);
+                int cout = map.get(s);
+                if(map.containsKey(s)){
+                    map.put(s,--cout);
+                }else{
+                    map.remove(s);
                 }
-
+                start++;
             }
 
 
