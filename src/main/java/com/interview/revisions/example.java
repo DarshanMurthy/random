@@ -18,7 +18,7 @@ public class example {
 
        for(int k=0;k<n1.length()-temp.length();k++){
            for(int l=0;l< temp.length();l++){
-               
+
            }
        }
 
