@@ -1,8 +1,6 @@
 package com.interview.experiments;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * abc
@@ -18,21 +16,35 @@ import java.util.Queue;
  */
 
 public class phoneProblem {
+
+   public static final Map<String, String> myMap;
+    static
+    {
+        myMap = new HashMap<String, String>();
+        myMap.put("a", "b");
+        myMap.put("c", "d");
+    }
+
+
 //
-//    public static  void bfs(String digits){
-//        for(int i=0;i< digits.length();i++){
-//
-//        }
-//    }
+    public static  void bfs(char i){
+        System.out.print(myMap.get("a"));
+
+    }
     public static void  main(String args[]){
         //bfs("23");
-        String digits="abcdef";
+
+        HashMap<Character,String> map = new HashMap<>();
+        map.put('2',"abc");
+        map.put('3',"def");
+
+        String digits="23";
         LinkedList<Character> list = new LinkedList<>();
         for(Character i: digits.toCharArray()){
             list.add(i);
         }
         while (!list.isEmpty()){
-            System.out.print(list.poll());
+            bfs(list.poll());
         }
         LinkedList<Character> stack = new LinkedList<>();
     }
