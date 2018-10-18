@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbbbb03-c444-45ba-968d-e9223d0eafe4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interview/revisions/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interview/revisions/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interview/experiments/phoneProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,24 +60,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="70" />
+          <entry key="java" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="70" />
+          <entry key="JAVA" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="21668" />
+          <entry key="java" value="22128" />
           <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21668" />
+          <entry key="JAVA" value="22128" />
           <entry key="PLAIN_TEXT" value="98" />
         </counts>
       </usages-collector>
@@ -117,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/comparator_examples/MainExamples.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -126,6 +127,18 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#592#593#0" expanded="true" />
                 <element signature="e#639#640#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/experiments/phoneProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,18 +165,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/java_related/generics/Example1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -558,6 +559,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/interview/java_related/comparator_examples/Example1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/revisions/example.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/interview/revisions/NQueens.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/interview/experiments/phoneProblem.java" />
       </list>
     </option>
   </component>
@@ -729,7 +731,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539874955240" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539877140727" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -757,7 +759,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NQueens">
+  <component name="RunManager" selected="Application.phoneProblem">
     <configuration name="Example1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.java_related.generics.Example1" />
       <module name="math_main" />
@@ -823,12 +825,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.revisions.random" />
+    <configuration name="phoneProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.experiments.phoneProblem" />
       <module name="math_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.revisions.*" />
+          <option name="PATTERN" value="com.interview.experiments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -841,16 +843,16 @@
       <item itemvalue="Application.Example1" />
       <item itemvalue="Application.Example1 (1)" />
       <item itemvalue="Application.LongestSubstringWithKMostDistictCharacters" />
-      <item itemvalue="Application.random" />
       <item itemvalue="Application.NQueens" />
+      <item itemvalue="Application.phoneProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.phoneProblem" />
         <item itemvalue="Application.NQueens" />
         <item itemvalue="Application.Example1" />
         <item itemvalue="Application.Example1 (1)" />
         <item itemvalue="Application.LongestSubstringWithKMostDistictCharacters" />
-        <item itemvalue="Application.random" />
       </list>
     </recent_temporary>
   </component>
@@ -922,10 +924,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="73" width="1280" height="725" extended-state="0" />
+    <frame x="43" y="161" width="1280" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19063005" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19063005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -934,14 +936,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5468498" visible="true" weight="0.26382306" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5468498" visible="true" weight="0.43127963" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49917898" weight="0.39954337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49917898" weight="0.3288364" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.45315024" side_tool="true" visible="true" weight="0.26382306" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.45315024" side_tool="true" visible="true" weight="0.43127963" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3288364" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4951535" weight="0.36334914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1240,6 +1242,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#592#593#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/interview/experiments/phoneProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
