@@ -6,44 +6,62 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class NQueens {
-    public static List<List<String>> list = new LinkedList<>();
-    public static void dfs(String arr[][],int col){
-        if(col == arr[0].length){
-            List<String> list1 = new LinkedList<>();
+    public  static  int numofrows=4;
 
-            for(int i=0;i<4;i++){
-                for(int j=0;i<4;i++){
-                    list1.add(arr[i][j]);
-                }
-            }
+    /**
+     * 1 Stopping Condition
+     * 2 Validation*
+     * */
 
+    public static  boolean validate(List<List<String>> list,int row,int col){
+        return true;
+    }
 
-            list.add(list1);
+    public static void dfs(List<List<String>> list,int col){
+        if(col == 4){
+
             return;
         }
-        for(int i=0;i< arr.length;i++){
-            arr[i][col] = "Q";
-            dfs(arr,col+1);
-            arr[i][col] ="";
+        for(int i=0;i<numofrows;i++){
+            if (validate(list,i,col)){
+                list.get(i);
+
+            }
         }
+
     }
 
     public static void main(String args[]){
-        String arr[][] = new String[4][4];
-        dfs(arr,0);
-        for (List<String> i: list){
-            System.out.println(i);
+        List<List<String>> list = new LinkedList<>();
+        int n = 4;
+        for(int i=0;i<n;i++){
+            List<String> temp = new LinkedList<>();
+            for(int j=0;j< n;j++){
+                temp.add("Q");
+            }
+            list.add(temp);
         }
 
-        //List<String> list = new LinkedList<>();
-//        list.add("temp");
-//
-//        for(String str: list){
-//            System.out.print(str);
-//        }
+        for(List<String> i :list){
+
+            for(String j: i) {
+                System.out.print(j);
+            }
+
+        }
+
+        for(int row=0;row < list.size();row++){
+            int col = list.get(row).size();
+            for(int j=0;j<col;j++ ){
+
+            }
+
+        }
+
+
+
+
 
 
     }
-
-
 }
