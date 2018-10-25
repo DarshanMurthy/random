@@ -8,12 +8,14 @@ public class phoneCombination {
                                         String prefix,
                                         LinkedList<String> list,
                                         int level){
-        if(level == prefix.length()){
+        if(level >=prefix.length()){
+            System.out.print(prefix);
             list.add(prefix);
             return;
         }
 
         String letters = KEYS[digits.charAt(level)-'0'];
+        System.out.print(letters);
         for(int i=0;i< letters.length();i++){
             combinationPrint(digits, prefix+letters.charAt(i),list,level+1 );
 
