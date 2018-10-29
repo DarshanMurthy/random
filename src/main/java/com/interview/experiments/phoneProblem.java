@@ -37,6 +37,7 @@ public class phoneProblem {
         HashMap<Character,String> map = new HashMap<>();
         map.put('2',"abc");
         map.put('3',"def");
+        map.put('4',"ghi");
 
         String digits="23";
         LinkedList<Character> list = new LinkedList<>();
