@@ -13,11 +13,13 @@ public class priorityqueue {
             map.put(s.charAt(i),a);
         }
         PriorityQueue<int[]> queue = new PriorityQueue<>((a,b)->b[1]-a[1]);
-        for( char c: s.toCharArray()){
+        for( char c: map.keySet()){
             queue.add(new int [] {c,map.get(c)});
         }
         while(!queue.isEmpty()){
-            System.out.println((char)queue.poll()[0]+"-->"+(int)queue.poll()[1]);
+            System.out.println(queue.poll()[0]+" "+queue.poll()[1]);
+//            int i[] = queue.poll();
+//            System.out.println(((char)i[0]+"-->"+i[1]));
         }
     }
 
